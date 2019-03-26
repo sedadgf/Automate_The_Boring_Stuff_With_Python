@@ -24,7 +24,6 @@ def backupToZip(folder):
             if filename.endswith('.txt') or filename.endswith('.py'):
 
                 backupZip.write(os.path.join(foldername, filename))
-        print(filenames)
     backupZip.close()
     print('Done.')
 
